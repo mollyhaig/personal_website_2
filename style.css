@@ -43,7 +43,7 @@ h4 {
 	font-style: italic;
 	color: #848484;	
 	padding: 0;
-	line-height: .5em;	
+	line-height: 1.5em;	
 }
 
 h5 {
@@ -51,7 +51,7 @@ h5 {
 	font-size: 1em;
 	font-weight: bold;
 	padding: 0;
-	line-height: .5em;	
+	line-height: 1.5em;	
 	margin-bottom: -1em;
 	
 }
@@ -81,21 +81,25 @@ p{
   position: absolute;
   top: 100px;
   left: 15%; 
+ 
 /*  (15% is half of the leftover 30 after the div takes up 70%, so it's centered)
 */}
 
 .port_images {
 	padding: 0% 0 0% 0;
+
 }
 
 .responsive_images{
 	border: 1px solid #000;
-
 }
 .responsive_images:hover {
 
 	filter: opacity(70%);
+}
 
+img {
+	display: block;
 }
 
 /*.navbar {
