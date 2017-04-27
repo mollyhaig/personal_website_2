@@ -2,48 +2,44 @@
 
 body {
 	margin: 0;
-/*	background-color: #F7F8E0;*/
+
 }
 
 h1{
 
 	font-family: Akkurat, Helvetica, Arial, sans-serif;
 	font-size: 4em;
-
-
+	margin-bottom: -.5em;
+	/*project titles only*/
 }
 
-/*h2 {
-
+h2 {
+	
 	font-family: Akkurat, Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	font-weight: lighter;
 	font-style: italic;
-	line-height: 1.5em;
-
-	position: absolute;
-	top: 200px;
-	left: 15%;
-	width: 70%;
-}*/
+	line-height: .5em;
+	/*italic body text BUT FOR CAPTIONS!*/
+}
 
 h3 {
 	font-family: Akkurat, Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	font-weight: lighter;
 	color: #FFF;
-
+	line-height: 1em;
+	/*navigation directions on navigation bar*/
 }
 
 h4 {
-	text-align: center;
 	font-family: Akkurat, Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	font-weight: lighter;
 	font-style: italic;
 	color: #848484;	
-	padding: 0;
-	line-height: 1.5em;	
+	line-height: 1em;	
+	/*Molly Haig on navigation bar*/
 }
 
 h5 {
@@ -53,6 +49,7 @@ h5 {
 	padding: 0;
 	line-height: 1.5em;	
 	margin-bottom: -1em;
+	/*bold body text*/
 	
 }
 
@@ -63,7 +60,9 @@ h6 {
 	font-weight: lighter;
 	font-style: italic;
 	line-height: 1.5em;
+	/*italic body text*/
 }
+
 
 p{
 	/*text-align: center;*/
@@ -71,12 +70,12 @@ p{
 	color: #000;
 	font-size: 1em;
 	line-height: 1.25em;
-/*	margin-top: 1em;*/
+	/*body text*/
 
 }
 
 .image_box {
-/*  border: 1px solid green;*/
+ /* border: 1px solid green;*/
   width: 70%;
   position: absolute;
   top: 100px;
@@ -86,7 +85,7 @@ p{
 */}
 
 .port_images {
-	padding: 0% 0 0% 0;
+	padding: 5% 0% 0% 0;
 
 }
 
@@ -94,7 +93,6 @@ p{
 	border: 1px solid #000;
 }
 .responsive_images:hover {
-
 	filter: opacity(70%);
 }
 
@@ -135,6 +133,9 @@ img {
 
 @media only screen and (max-width: 512px) {
 	h1 {font-size: 3em;}
+	h2 {font-size: .9em;}
+	h3 {font-size: .9em}
+	h4 {font-size: .9em;}
 	h6 {font-size: .9em; line-height: 1.25em;}
 	h5 {font-size: .9em; line-height: 1.25em;}
 	.navbar {top: 300px;}
