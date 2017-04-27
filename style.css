@@ -19,7 +19,7 @@ h2 {
 	font-size: 1em;
 	font-weight: lighter;
 	font-style: italic;
-	line-height: .5em;
+	line-height: 1.25em;
 	/*italic body text BUT FOR CAPTIONS!*/
 }
 
@@ -77,12 +77,12 @@ p{
 .image_box {
  /* border: 1px solid green;*/
   width: 70%;
-  position: absolute;
-  top: 100px;
-  left: 15%; 
+  margin: auto; 
+  max-width: 750px;
+  padding-top: 100px;
  
-/*  (15% is half of the leftover 30 after the div takes up 70%, so it's centered)
-*/}
+}
+
 
 .port_images {
 	padding: 5% 0% 0% 0;
@@ -127,6 +127,7 @@ img {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	align-items: baseline;
 	z-index: 999;
 }
 
